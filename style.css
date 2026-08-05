@@ -79,3 +79,12 @@ button{
 button:hover{
     background:white;
 }
+.card a{
+    color:#00FF99;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.card a:hover{
+    color:white;
+}
