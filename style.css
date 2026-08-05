@@ -66,3 +66,16 @@ button{
 .card h3{
     color:#00FF99;
 }
+button{
+    background:#00FF99;
+    color:black;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+button:hover{
+    background:white;
+}
