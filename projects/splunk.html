@@ -39,6 +39,35 @@ logs using Splunk SIEM.
 <li>VirtualBox</li>
 <li>Web Browser</li>
 </ul>
+    <h2>Lab Environment</h2>
+
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Component</th>
+        <th>Details</th>
+    </tr>
+
+    <tr>
+        <td>SIEM Tool</td>
+        <td>Splunk Enterprise</td>
+    </tr>
+
+    <tr>
+        <td>Operating System</td>
+        <td>Windows 11</td>
+    </tr>
+
+    <tr>
+        <td>Virtualization</td>
+        <td>VirtualBox</td>
+    </tr>
+
+    <tr>
+        <td>Purpose</td>
+        <td>Security Log Analysis</td>
+    </tr>
+
+</table>
 
 <h2>Skills Demonstrated</h2>
 
@@ -49,7 +78,32 @@ logs using Splunk SIEM.
 <li>Alert Investigation</li>
 </ul>
 
+    <h2>Installation Steps</h2>
+
+<ol>
+    <li>Downloaded Splunk Enterprise.</li>
+    <li>Installed Splunk on Windows.</li>
+    <li>Started the Splunk service.</li>
+    <li>Logged into the Splunk Web interface.</li>
+    <li>Added sample data or Windows Event Logs.</li>
+    <li>Created indexes.</li>
+    <li>Performed searches using SPL.</li>
+</ol>
+
 </section>
+    <h2>Sample SPL Queries</h2>
+
+<pre>
+index=main
+
+index=main error
+
+index=main EventCode=4624
+
+index=main EventCode=4625
+
+host=DESKTOP-01
+</pre>
 
 </body>
 </html>
